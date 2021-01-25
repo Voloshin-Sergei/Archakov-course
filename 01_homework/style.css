@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 23px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+
+.add_task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid grey;
+}
+
+.add_input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add_btn {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #000000;
+}
+
+.add_btn:hover {
+  background-color: #20af2c;
+}
+
+.tasks_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid grey;
+  font-size: 30px;
+  padding: 5px;
+}
+
+.remove_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  outline: none;
+  border: 1px solid #000000;
+  opacity: 0.4;
+}
+
+.remove_btn:hover {
+  background-color: #e60e0e;
+  opacity: 0.8;
+  color: #ffffff;
+}
